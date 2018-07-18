@@ -1,0 +1,144 @@
+.carousel {
+    height: 40rem;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    &_control {
+        width: 100%;
+        &_left,
+        &_right {
+            background: $color-white;
+            height: 5rem;
+            width: 5rem;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-90%);
+            font-size: 8rem;
+            color: $primary-light;
+            border-radius: 50rem;
+            transition: all .2s; 
+            z-index: 10;
+            &:hover {
+                transform: translateY(-90%) scale(1.2);
+            }
+            @include respond(tab-por) {
+                bottom: 100%;
+                transform: translateY(410%);
+                &:hover {
+                    transform: translateY(410%) scale(1.2);
+                }
+            }
+            @include respond(phone) {
+                transform: translateY(530%);
+                &:hover {
+                    transform: translateY(530%) scale(1.2);
+                }
+            }
+        }
+        &_left {
+            background: url('../images/left-arrow.svg');
+            left: 5%;
+            @include respond(tab-por) {
+                left: 20%;
+            }
+        }
+        &_right {
+            background: url('../images/right-arrow.svg');
+            right: 5%;
+            @include respond(tab-por) {
+                right: 20%;
+            }
+        }
+    }
+    &_content {
+        position: relative;
+        height: 40rem;
+        width: 63rem;
+        margin: auto auto;
+        @include respond(tab-por) {
+            width: 55rem;
+        }
+        @include respond(phone) {
+            width: 35rem;
+            height: 50rem;
+        }
+    }
+    &_card {
+        background: url(../images/quote.svg), white;
+        background-size: 15%;
+        background-repeat: no-repeat;
+        background-position: 2rem center;
+        position: absolute;
+        transition: all .4s;
+        box-shadow: 0 0 1rem .4rem rgba(156, 149, 149, .4);
+        padding: 6.8rem 4rem 5rem 4rem;
+        width: auto;
+        margin: 0 auto; // width: 100%;
+        @include respond(phone) {
+            padding: 4rem 3rem;
+        }
+        &.card_active {
+            z-index: 100 !important;
+        }
+        &.card_left {
+            transform: translateX(-20rem) scale(.6);
+            z-index: 5;
+            @include respond(phone) {
+                transform: translateX(-10rem) scale(.6);
+            }
+        }
+        &.card_right {
+            transform: translateX(20rem) scale(.6);
+            z-index: 5;
+            @include respond(phone) {
+                transform: translateX(10rem) scale(.6);
+            }
+        }
+        &.active_left {
+            z-index: 9;
+        }
+        &.active_right {
+            z-index: 9;
+        }
+        &_img {
+            position: absolute;
+            max-width: 12rem;
+            top: -20%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &_text {
+            color: $carousel-text;
+            font-size: 2.2rem;
+            line-height: 3.1rem;
+            text-align: center;
+        }
+        &_name,
+        &_company {
+            font-size: 1.8rem;
+            text-align: center;
+            font-weight: 400;
+        }
+        &_name {
+            color: $card-name;
+        }
+        &_company {
+            color: $primary-light;
+            margin-bottom: 3rem;
+        }
+    }
+    &_indicator {
+        cursor: pointer;
+        display: block;
+        text-align: center;
+        z-index: 10000;
+        font-size: 3rem;
+        &_block {
+            display: inline-block;
+            &.active {
+                color: $primary-light;
+            }
+        }
+    }
+}

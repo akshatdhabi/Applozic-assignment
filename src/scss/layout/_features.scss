@@ -1,0 +1,23 @@
+.features {
+    display: flex;
+    padding: 6rem 6rem 25rem 6rem;
+    align-content: center;
+    background: url(../images/tab-bg.svg) no-repeat;
+    background-size: 110%;
+    background-position: -15rem 3rem;
+ 
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        background-position: -15rem -10rem;
+    }
+    @include respond(tab-lan) {
+        padding: 8rem 2rem;
+        background-size: 120%;
+    }
+    @include respond(tab-por) {
+        background: none;
+        padding: 10rem 2rem 2rem 2rem;
+        flex-direction: column-reverse;
+    }
+   
+}

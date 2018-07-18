@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1464.053 282.958">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        opacity: 0.671;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        stroke: #707070;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="path-72" class="cls-1" d="M2.575,70.846C-6.68,31.37,8.625,0,54.836,0s77.789,26.686,103.778,39.209S190.158,90,163.546,90s-57.356,20.324-83.169,33.558S11.829,110.322,2.575,70.846Z" transform="translate(0)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(0 -1022.042)">
+    <path id="Rectangle-17" class="cls-2" d="M198.712,52.528c145.92,169.938,447.742,120.988,664.6,40.423,130.054-48.317,293.6-57.9,394.771,0,34.239,19.593,153.442,6.866,183.68,56q12.276,19.947,20.852,34.14a10,10,0,0,1-5.83,14.792L1156.9,282.958l-912.357-42.9L8.845,212.636A10,10,0,0,1,.068,201.547q.056-.477.157-.947Q65.467-102.65,198.712,52.528Z" transform="translate(0 1022.042)"/>
+    <g id="Group-2" class="cls-3" transform="translate(1052 1028)">
+      <g id="Line-4_Clipped" data-name="Line-4 Clipped">
+        <path id="path-72-2" data-name="path-72" class="cls-1" d="M2.575,70.846C-6.68,31.37,8.625,0,54.836,0s77.789,26.686,103.778,39.209S190.158,90,163.546,90s-57.356,20.324-83.169,33.558S11.829,110.322,2.575,70.846Z" transform="translate(0)"/>
+        <g id="Line-4_Clipped-2" data-name="Line-4 Clipped" class="cls-4">
+          <g id="Line-4" transform="translate(-91 -43)">
+            <g id="Group" transform="translate(0.026 0.351)">
+              <path id="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(0.433 0.44)"/>
+              <path id="Shape-2" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(9.093 0.44)"/>
+              <path id="Shape-3" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(17.754 0.44)"/>
+              <path id="Shape-4" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(26.414 0.44)"/>
+              <path id="Shape-5" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(35.074 0.44)"/>
+              <path id="Shape-6" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(43.734 0.44)"/>
+              <path id="Shape-7" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(52.395 0.44)"/>
+              <path id="Shape-8" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(61.055 0.44)"/>
+              <path id="Shape-9" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(69.715 0.44)"/>
+              <path id="Shape-10" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(78.376 0.44)"/>
+              <path id="Shape-11" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(87.036 0.44)"/>
+              <path id="Shape-12" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(95.696 0.44)"/>
+              <path id="Shape-13" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(104.356 0.44)"/>
+              <path id="Shape-14" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(113.017 0.44)"/>
+              <path id="Shape-15" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(121.677 0.44)"/>
+              <path id="Shape-16" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(130.337 0.44)"/>
+              <path id="Shape-17" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(138.998 0.44)"/>
+              <path id="Shape-18" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(147.658 0.44)"/>
+              <path id="Shape-19" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(156.318 0.44)"/>
+              <path id="Shape-20" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(164.978 0.44)"/>
+              <path id="Shape-21" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(173.639 0.44)"/>
+              <path id="Shape-22" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(182.299 0.44)"/>
+              <path id="Shape-23" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(190.959 0.44)"/>
+              <path id="Shape-24" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(199.62 0.44)"/>
+              <path id="Shape-25" data-name="Shape" class="cls-5" d="M153.287,0,0,193.412" transform="translate(208.28 0.44)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

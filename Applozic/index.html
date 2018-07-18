@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <title>Internship Assingnment</title>
+</head>
+
+<body>
+    <nav class="navbar container">
+        <div class="navbar_logo">
+            <img src="images/logo.svg" alt="Company logo">
+        </div>
+        <div class="navbar_switch" onclick="navToggle(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+        </div>
+        <div class="navbar_nav" id="nav_content">
+            <ul class="navbar_list">
+                <li class="navbar_item">
+                    <a href="#" class="navbar_link">Features</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#" class="navbar_link">Pricing</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#" class="navbar_link">Login</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#" class="highlight navbar_link">Create free account</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <header class="header  u-mt-big u-mb-small">
+        <div class="container">
+            <h1 class="header_heading">
+                Delight your customers with intelligent chat based support
+            </h1>
+            <div class="header_email u-mt-medium u-mb-small">
+                <input type="text" placeholder="Your email address" class="header_input">
+                <a href="#" class="button button-red header_button">Create free account</a>
+            </div>
+            <p class="header_sub"> 30 days trial. Quick setup. No credit card required
+            </p>
+        </div>
+    </header>
+    <section class="hero u-mt-small">
+        <div class="container">
+            <div class="hero_main">
+                <div class="hero_text">I have been playing with several pieces of software, and they are way too complicated, time-consuming, and
+                    expensive. I was on Google today searching, and you popped up! Within minutes, I had a professional solution
+                    for my website.</div>
+                <div class="hero_author">Bill Gates
+                    <br> Microsoft</div>
+            </div>
+        </div>
+    </section>
+    <section class="features container">
+
+        <!-- Tab content -->
+        <div class="tab_data">
+
+            <div id="tab1" class="tabcontent">
+                <div class="tab_title">Conversations</div>
+                <img src="images/tab1.png" alt="conversations tab">
+            </div>
+            <div id="tab2" class="tabcontent">
+                <div class="tab_title">Bot Integrations</div>
+                <img src="images/tab2.png" alt="bot integrations tab">
+            </div>
+            <div id="tab3" class="tabcontent">
+                <div class="tab_title">Agent Wise Reporting</div>
+                <img src="images/tab3.png" alt="agent wise reporting tab">
+            </div>
+            <div id="tab4" class="tabcontent">
+                <div class="tab_title">FAQs</div>
+                <img src="images/tab4.png" alt="Faqs tab">
+            </div>
+            <div id="tab5" class="tabcontent">
+                <div class="tab_title">Integrations</div>
+                <img src="images/tab5.png" alt="Integrations tab">
+            </div>
+        </div>
+
+        <div class="tab_buttons">
+            <h2 class="tab_heading u-mb-small">Features you will love.</h2>
+            <h6 class="tab_explore u-mb-small">
+                <a href="#">Explore all features &nbsp; &rarr;</a>
+            </h6>
+            <button class="tablink" id="tab_1" onclick="tabSwitch(event,'tab1','1')">Converstaions</button>
+            <button class="tablink" id="tab_2" onclick="tabSwitch(event,'tab2','2')">Bot Integrations</button>
+            <button class="tablink" id="tab_3" onclick="tabSwitch(event,'tab3','3')">Agent Wise Reporting</button>
+            <button class="tablink" id="tab_4" onclick="tabSwitch(event,'tab4','4')">FAQs</button>
+            <button class="tablink" id="tab_5" onclick="tabSwitch(event,'tab5','5')">Integrations</button>
+        </div>
+
+    </section>
+    <section class="customers container">
+        <h2 class="main_heading">Join the list of happy customers</h2>
+        <div class="main_underline"></div>
+        <div class="carousel">
+            <div class="carousel_content">
+                <div class="carousel_card" id="card_1">
+                    <img src="images/musk.png" alt="elon musk" class="carousel_card_img">
+                    <h5 class="carousel_card_name">Elon Musk</h5>
+                    <h6 class="carousel_card_company">Tesla</h6>
+                    <p class="carousel_card_text">I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided
+                        to work with you. It’s really great how easy your websites are to update and manage. I never have
+                        any problem at all. </p>
+                </div>
+                <div class="carousel_card" id="card_2">
+                    <img src="images/zuck.png" alt="mark zuckerberg" class="carousel_card_img">
+                    <h5 class="carousel_card_name">Mark Zuckerberg</h5>
+                    <h6 class="carousel_card_company">Facebook</h6>
+                    <p class="carousel_card_text">I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided
+                        to work with you. It’s really great how easy your websites are to update and manage. I never have
+                        any problem at all. </p>
+                </div>
+                <div class="carousel_card" id="card_3">
+                    <h5 class="carousel_card_name">Jeff Bezos</h5>
+                    <h6 class="carousel_card_company">Amazon</h6>
+                    <img src="images/bezos.png" alt="jeff bezos" class="carousel_card_img">
+                    <p class="carousel_card_text">I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided
+                        to work with you. It’s really great how easy your websites are to update and manage. I never have
+                        any problem at all. </p>
+                </div>
+            </div>
+            <div class="carousel_control">
+                <div class="carousel_control_left" onclick="slideLeft()"></div>
+                <div class="carousel_control_right " onclick="slideRight()"></div>
+            </div>
+            <div class="carousel_indicator">
+                <a class="carousel_indicator_block" id="indicator1" onclick="changeCard(1)">&#9679;</a>
+                <a class="carousel_indicator_block" id="indicator2" onclick="changeCard(2)">&#9679;</a>
+                <a class="carousel_indicator_block" id="indicator3" onclick="changeCard(3)">&#9679;</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services container">
+        <div class="main">
+            <h2 class="main_heading">Install anywhere & connect with your favorite services</h2>
+            <div class="main_underline"></div>
+        </div>
+        <div class="services_block">
+            <div class="services_block_image">
+                <img src="images/services-block-1.svg" alt="services block 1" class="services_block_img">
+            </div>
+            <div class="services_box_text u-mb-small">Easily integrate across all your platforms
+                <br>
+                <br>Integrate in your platform easily with our powerful and customizable web plugin and mobile SDKs (available
+                for platforms such as Android, iOS, Cordova, Ionic and PhoneGap).
+            </div>
+            <a class="services_block_link " href="#">See Docs &rarr;</a>
+        </div>
+        <div class="services_block">
+            <div class="services_block_image">
+                <img src="images/services-block-2.svg" alt="services block 2" class="services_block_img">
+            </div>
+            <div class="services_box_text">Easily integrate across all your platforms
+                <br>
+                <br>Integrate in your platform easily with our powerful and customizable web plugin and mobile SDKs (available
+                for platforms such as Android, iOS, Cordova, Ionic and PhoneGap).
+            </div>
+        </div>
+    </section>
+    <footer class="footer container">
+        <div class="footer_account">
+            <h4 class="footer_account_text">
+                Join the list of 1000+ happy customers</h4>
+            <a href="#" class="button">Create free account</a>
+
+        </div>
+        <div class="footer_row">
+            <div class="footer_column">
+                <img src="images/logo.svg" alt="company logo footer" class="footer_logo">
+                <p>#4956 Liberty Avenue
+                    <br>Burbank, CA
+                    <br> California - 91505
+                    <br>
+                    <br> (+91) 714-496-5720
+                    <br> hello@product.io
+                </p>
+            </div>
+            <div class="footer_column">
+                <ul class="footer_list">
+                    <li class="footer_list_item">
+                        Product
+                    </li>
+                    <li class="footer_list_item">
+                        <a href="#" class="footer_link">Features</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a href="#" class="footer_link">Pricing and FAQs</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a href="#" class="footer_link">Docs</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a href="#" class="footer_link">Request Demo</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_column">
+                <ul class="footer_list">
+                    <li class="footer_list_item">
+                        Company
+                    </li>
+                    <li class="footer_list_item">
+                        <a href="#" class="footer_link">About us</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a href="#" class="footer_link">Blog</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a href="#" class="footer_link">Jobs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_column">
+                <ul class="footer_list">
+                    <li class="footer_list_item">
+                        Social
+                    </li>
+                    <li class="footer_list_item">
+                        <a href="#" class="footer_link">Facebook</a>
+                    </li>
+                    <li class="footer_list_item">
+                        <a href="#" class="footer_link">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <p class="footer_copyright">Copyright &copy; 2018 Product.io.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

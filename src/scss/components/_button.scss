@@ -1,0 +1,19 @@
+.button{
+    &,
+    &:link,
+    &:visited{
+      background: $highlight;
+      color:$color-white;
+      text-decoration: none;
+      padding: 1.3rem 2.5rem;
+      font-size: 1.8rem;
+      border-radius: 4px;
+      transition: all .3s;
+    }
+    &:hover{
+        background: darken($highlight,10);
+    }
+
+    
+}
+

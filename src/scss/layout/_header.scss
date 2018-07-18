@@ -1,0 +1,78 @@
+.header {
+    &_heading {
+        font-size: 5rem;
+        line-height: 5.8rem;
+        font-weight: 400;
+        color: $color-heading;
+        width: 65%;
+        text-align: center;
+        margin: 0 auto;
+        animation: fade-in-top .8s;
+        @include respond(tab-lan) {
+            width: 85%;
+        }
+        @include respond(tab-por) {
+            width: 85%;
+        }
+        @include respond(phone) {
+            font-size: 3.9rem;
+            width: 95%;
+        }
+    }
+    &_email {
+        position: relative;
+        width: 40%;
+        margin: 0 auto;
+        background-color: $header-textbox-bg;
+        border: 3px solid $header-textbox-border;
+        border-radius: 6px;
+        animation: fade-in-top .8s;
+        @include respond(tab-lan) {
+            width: 50%;
+        }
+        @include respond(tab-por) {
+            width: 65%;
+            border: none;
+        }
+        @include respond(phone) {
+            width: 85%;
+            border: none;
+        }
+    }
+    &_input {
+        width: 60%;
+        background-color: $header-textbox-bg; // background-color: red;
+        padding: 2rem;
+        letter-spacing: .1rem;
+        border-radius: 6px 0 0 6px;
+        color: $header-textbox-text;
+        font-size: 1.8rem;
+        border: none;
+        outline: none;
+        display: block;
+        animation: move-in-left .8s;
+        @include respond(tab-por) {
+            border: none;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    &_button {
+        margin-left: .3rem;
+        position: absolute;
+        top: .3rem;
+        right: .4rem;
+        animation: move-in-right .8s;
+        @include respond(tab-por) {
+            width: 100%;
+            display: block;
+            text-align: center;
+            position: relative;
+        }
+    }
+    &_sub {
+        text-align: center;
+        letter-spacing: .2rem;
+        animation: fade-in-top .8s;
+    }
+}
